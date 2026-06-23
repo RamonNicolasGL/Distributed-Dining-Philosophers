@@ -36,7 +36,7 @@ A solução utiliza o **Modelo de Atores**, onde cada entidade independente é u
 
 A tabela abaixo demonstra como o paradigma de comunicação do código original presente no livro foi mapeado para as construções nativas do Elixir:
 
-| Conceito Original | Implementação em Elixir | Explicação Técnica |
+| Conceito Original | Implementação em Elixir | Explicação |
 | :--- | :--- | :--- |
 | `module Waiter[5]` | `Enum.each(0..4, ...)` | Criação de 5 processos `GenServer` independentes na memória. |
 | `receive getforks()` | `handle_call(:get_forks, ...)` | Requisição síncrona. Se o garfo estiver ocupado, o servidor retém a resposta (`{:noreply, ...}`), bloqueando o cliente. |
