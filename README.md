@@ -8,7 +8,7 @@ A implementação transpõe rigorosamente um modelo de concorrência tradicional
 
 ---
 
-## 📌 Contextualização do Problema
+##  Contextualização do Problema
 
 O Jantar dos Filósofos ilustra os desafios da alocação de recursos compartilhados em sistemas concorrentes. Cinco filósofos sentam-se à mesa para pensar e comer. Para comer, cada filósofo precisa de dois garfos (o da sua esquerda e o da sua direita). No entanto, existem apenas 5 garfos disponíveis.
 
@@ -18,7 +18,7 @@ O Jantar dos Filósofos ilustra os desafios da alocação de recursos compartilh
 
 ---
 
-## 🏗️ Arquitetura e Paradigma em Elixir
+##  Arquitetura e Paradigma em Elixir
 
 A solução utiliza o **Modelo de Atores**, onde cada entidade independente é um processo isolado que se comunica exclusivamente por troca de mensagens assíncronas ou síncronas.
 
@@ -29,7 +29,7 @@ A solução utiliza o **Modelo de Atores**, onde cada entidade independente é u
 
 ---
 
-## 🧬 Mapeamento do Código Original para Elixir
+##  Mapeamento do Código Original para Elixir
 
 A tabela abaixo demonstra como o paradigma de comunicação do código original foi mapeado para as construções nativas do Elixir:
 
@@ -47,7 +47,7 @@ Os servidores `Waiter` são registrados utilizando a tupla `{:global, {:waiter, 
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 * Ter o [Elixir](https://elixir-lang.org/install.html) instalado na sua máquina (versão 1.12 ou superior recomendada).
