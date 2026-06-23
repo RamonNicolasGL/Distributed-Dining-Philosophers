@@ -1,6 +1,7 @@
 # ProgConcorrenteTP2
 
 # O Jantar dos Filósofos Distribuído em Elixir
+<img width="262" height="202" alt="image" src="https://github.com/user-attachments/assets/126d4686-de1a-4bb6-9a33-a4dd0c2dbab9" />
 
 Este projeto apresenta uma implementação do clássico problema de concorrência do **Jantar dos Filósofos** utilizando a linguagem **Elixir**. O objetivo deste código é servir como estudo de caso para soluções distribuídas baseadas em servidores replicados/independentes (`replicated servers`) e troca de mensagens.
 
