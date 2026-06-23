@@ -4,7 +4,9 @@
 
 Este projeto apresenta uma implementação do clássico problema de concorrência do **Jantar dos Filósofos** utilizando a linguagem **Elixir**. O objetivo deste código é servir como estudo de caso para soluções distribuídas baseadas em servidores replicados/independentes (`replicated servers`) e troca de mensagens.
 
-A implementação transpõe rigorosamente um modelo de concorrência tradicional baseado em processos e operações bloqueantes para o **Modelo de Atores** nativo da máquina virtual do Erlang (BEAM).
+A implementação adota um modelo de concorrência tradicional baseado em processos e operações bloqueantes para o **Modelo de Atores** nativo da máquina virtual do Erlang (BEAM).
+
+O código do livro Foundations of Multithreaded, Parallel, and Distributed Programming - Gregory R. Andres; capítulo 9 seção 9.7 figura 9.20 foi tomado como base para a implementação.
 
 ---
 
