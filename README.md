@@ -6,7 +6,7 @@ Este projeto apresenta uma implementação do clássico problema de concorrênci
 
 A implementação adota um modelo de concorrência tradicional baseado em processos e operações bloqueantes para o **Modelo de Atores** nativo da máquina virtual do Erlang (BEAM).
 
-O código do livro Foundations of Multithreaded, Parallel, and Distributed Programming - Gregory R. Andres; capítulo 9 seção 9.7 figura 9.20 foi tomado como base para a implementação.
+O código do livro Foundations of Multithreaded, Parallel, and Distributed Programming - Gregory R. Andres;** capítulo 9 seção 9.7 figura 9.20** foi tomado como base para a implementação.
 
 ---
 
