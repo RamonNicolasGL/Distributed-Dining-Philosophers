@@ -33,7 +33,7 @@ A solução utiliza o **Modelo de Atores**, onde cada entidade independente é u
 
 ##  Mapeamento do Código Original para Elixir
 
-A tabela abaixo demonstra como o paradigma de comunicação do código original foi mapeado para as construções nativas do Elixir:
+A tabela abaixo demonstra como o paradigma de comunicação do código original presente no livro foi mapeado para as construções nativas do Elixir:
 
 | Conceito Original | Implementação em Elixir | Explicação Técnica |
 | :--- | :--- | :--- |
